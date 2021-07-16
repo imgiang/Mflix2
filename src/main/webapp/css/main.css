@@ -1,0 +1,47 @@
+*{
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: lightgray;
+}
+
+.navbar-brand {
+    font-family: 'Lato', sans-serif;
+}
+
+.movie-description{
+    height: 70px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3; /* number of lines to show */
+    -webkit-box-orient: vertical;
+}
+
+.movie-title{
+    height: 50px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2; /* number of lines to show */
+    -webkit-box-orient: vertical;
+}
+
+
+.navbar{
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.carousel-item{
+    height: 350px;
+}
+
+.card-img-top{
+    height: 200px;
+    background-color: black;
+    min-height: 200px;
+}
